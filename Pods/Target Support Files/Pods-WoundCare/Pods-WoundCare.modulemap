@@ -1,0 +1,6 @@
+framework module Pods_WoundCare {
+  umbrella header "Pods-WoundCare-umbrella.h"
+
+  export *
+  module * { export * }
+}

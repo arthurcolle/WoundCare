@@ -1,0 +1,20 @@
+PODS:
+  - CircleMenu (4.1.0)
+  - SwiftCharts (0.6.5)
+
+DEPENDENCIES:
+  - CircleMenu
+  - SwiftCharts
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CircleMenu
+    - SwiftCharts
+
+SPEC CHECKSUMS:
+  CircleMenu: a66095199a5e26f19acbb212f077010257767fe5
+  SwiftCharts: 2e755ea292f0b87d3e4b2c1eb5afc080a20cdc15
+
+PODFILE CHECKSUM: d62a7eeac95320a6111f808758ee98191f07b664
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24F485255FB038D8EA44799A /* Pods_WoundCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644257B65335DA156A34EEEF /* Pods_WoundCare.framework */; };
+		A5EC239B22E2C51600B48DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC239A22E2C51600B48DEC /* AppDelegate.swift */; };
+		A5EC239D22E2C51600B48DEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC239C22E2C51600B48DEC /* ViewController.swift */; };
+		A5EC23A022E2C51600B48DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EC239E22E2C51600B48DEC /* Main.storyboard */; };
+		A5EC23A222E2C51700B48DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EC23A122E2C51700B48DEC /* Assets.xcassets */; };
+		A5EC23A522E2C51700B48DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EC23A322E2C51700B48DEC /* LaunchScreen.storyboard */; };
+		A5EC23B222E2C5ED00B48DEC /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23AD22E2C5ED00B48DEC /* CircleMenu.swift */; };
+		A5EC23B322E2C5ED00B48DEC /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23AF22E2C5ED00B48DEC /* CircleMenuLoader.swift */; };
+		A5EC23B422E2C5ED00B48DEC /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23B122E2C5ED00B48DEC /* CircleMenuButton.swift */; };
+		A5EC23D322E2C65900B48DEC /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23B622E2C65900B48DEC /* DesignableImageView.swift */; };
+		A5EC23D422E2C65900B48DEC /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23B722E2C65900B48DEC /* KeyboardLayoutConstraint.swift */; };
+		A5EC23D522E2C65900B48DEC /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23B822E2C65900B48DEC /* TransitionManager.swift */; };
+		A5EC23D622E2C65900B48DEC /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23B922E2C65900B48DEC /* TransitionZoom.swift */; };
+		A5EC23D722E2C65900B48DEC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23BA22E2C65900B48DEC /* ImageLoader.swift */; };
+		A5EC23D822E2C65900B48DEC /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23BB22E2C65900B48DEC /* Spring.swift */; };
+		A5EC23D922E2C65900B48DEC /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23BC22E2C65900B48DEC /* SpringImageView.swift */; };
+		A5EC23DA22E2C65900B48DEC /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23BD22E2C65900B48DEC /* DesignableLabel.swift */; };
+		A5EC23DB22E2C65900B48DEC /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23BE22E2C65900B48DEC /* SoundPlayer.swift */; };
+		A5EC23DC22E2C65900B48DEC /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23BF22E2C65900B48DEC /* BlurView.swift */; };
+		A5EC23DD22E2C65900B48DEC /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23C022E2C65900B48DEC /* DesignableTextField.swift */; };
+		A5EC23DE22E2C65900B48DEC /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23C122E2C65900B48DEC /* SpringButton.swift */; };
+		A5EC23DF22E2C65900B48DEC /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23C222E2C65900B48DEC /* SpringTextView.swift */; };
+		A5EC23E022E2C65900B48DEC /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23C322E2C65900B48DEC /* Misc.swift */; };
+		A5EC23E122E2C65900B48DEC /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23C422E2C65900B48DEC /* SpringView.swift */; };
+		A5EC23E222E2C65900B48DEC /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23C522E2C65900B48DEC /* DesignableButton.swift */; };
+		A5EC23E322E2C65900B48DEC /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23C622E2C65900B48DEC /* SpringTextField.swift */; };
+		A5EC23E422E2C65900B48DEC /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23C722E2C65900B48DEC /* DesignableView.swift */; };
+		A5EC23E522E2C65900B48DEC /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23C822E2C65900B48DEC /* AsyncButton.swift */; };
+		A5EC23E622E2C65900B48DEC /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5EC23C922E2C65900B48DEC /* LoadingView.xib */; };
+		A5EC23E722E2C65900B48DEC /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23CA22E2C65900B48DEC /* SpringLabel.swift */; };
+		A5EC23E822E2C65900B48DEC /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23CC22E2C65900B48DEC /* DesignableTextView.swift */; };
+		A5EC23E922E2C65900B48DEC /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23CD22E2C65900B48DEC /* AutoTextView.swift */; };
+		A5EC23EA22E2C65900B48DEC /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23CE22E2C65900B48DEC /* SpringAnimation.swift */; };
+		A5EC23EB22E2C65900B48DEC /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23CF22E2C65900B48DEC /* UnwindSegue.swift */; };
+		A5EC23EC22E2C65900B48DEC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23D022E2C65900B48DEC /* LoadingView.swift */; };
+		A5EC23EE22E2C65900B48DEC /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC23D222E2C65900B48DEC /* AsyncImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		644257B65335DA156A34EEEF /* Pods_WoundCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoundCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65737832707FA0FA96A51D24 /* Pods-WoundCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoundCare.release.xcconfig"; path = "Pods/Target Support Files/Pods-WoundCare/Pods-WoundCare.release.xcconfig"; sourceTree = "<group>"; };
+		833304EB56AEBFF4AF6E2415 /* Pods-WoundCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoundCare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WoundCare/Pods-WoundCare.debug.xcconfig"; sourceTree = "<group>"; };
+		A5EC239722E2C51600B48DEC /* WoundCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoundCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EC239A22E2C51600B48DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5EC239C22E2C51600B48DEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5EC239F22E2C51600B48DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5EC23A122E2C51700B48DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5EC23A422E2C51700B48DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5EC23A622E2C51700B48DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EC23AD22E2C5ED00B48DEC /* CircleMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMenu.swift; sourceTree = "<group>"; };
+		A5EC23AF22E2C5ED00B48DEC /* CircleMenuLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMenuLoader.swift; sourceTree = "<group>"; };
+		A5EC23B122E2C5ED00B48DEC /* CircleMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMenuButton.swift; sourceTree = "<group>"; };
+		A5EC23B622E2C65900B48DEC /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		A5EC23B722E2C65900B48DEC /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		A5EC23B822E2C65900B48DEC /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		A5EC23B922E2C65900B48DEC /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		A5EC23BA22E2C65900B48DEC /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		A5EC23BB22E2C65900B48DEC /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		A5EC23BC22E2C65900B48DEC /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		A5EC23BD22E2C65900B48DEC /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		A5EC23BE22E2C65900B48DEC /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		A5EC23BF22E2C65900B48DEC /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		A5EC23C022E2C65900B48DEC /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		A5EC23C122E2C65900B48DEC /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		A5EC23C222E2C65900B48DEC /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		A5EC23C322E2C65900B48DEC /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		A5EC23C422E2C65900B48DEC /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		A5EC23C522E2C65900B48DEC /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		A5EC23C622E2C65900B48DEC /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		A5EC23C722E2C65900B48DEC /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		A5EC23C822E2C65900B48DEC /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		A5EC23C922E2C65900B48DEC /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		A5EC23CA22E2C65900B48DEC /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		A5EC23CB22E2C65900B48DEC /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		A5EC23CC22E2C65900B48DEC /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		A5EC23CD22E2C65900B48DEC /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		A5EC23CE22E2C65900B48DEC /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		A5EC23CF22E2C65900B48DEC /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		A5EC23D022E2C65900B48DEC /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A5EC23D122E2C65900B48DEC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EC23D222E2C65900B48DEC /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5EC239422E2C51600B48DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F485255FB038D8EA44799A /* Pods_WoundCare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277211EC2746A28850BAC90F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				833304EB56AEBFF4AF6E2415 /* Pods-WoundCare.debug.xcconfig */,
+				65737832707FA0FA96A51D24 /* Pods-WoundCare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53FC3D21BDBA8CBF0E0017E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				644257B65335DA156A34EEEF /* Pods_WoundCare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5EC238E22E2C51600B48DEC = {
+			isa = PBXGroup;
+			children = (
+				A5EC23EF22E2C65D00B48DEC /* OpenSourceLibraries */,
+				A5EC239922E2C51600B48DEC /* WoundCare */,
+				A5EC239822E2C51600B48DEC /* Products */,
+				277211EC2746A28850BAC90F /* Pods */,
+				53FC3D21BDBA8CBF0E0017E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5EC239822E2C51600B48DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC239722E2C51600B48DEC /* WoundCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5EC239922E2C51600B48DEC /* WoundCare */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC239A22E2C51600B48DEC /* AppDelegate.swift */,
+				A5EC239C22E2C51600B48DEC /* ViewController.swift */,
+				A5EC239E22E2C51600B48DEC /* Main.storyboard */,
+				A5EC23A122E2C51700B48DEC /* Assets.xcassets */,
+				A5EC23A322E2C51700B48DEC /* LaunchScreen.storyboard */,
+				A5EC23A622E2C51700B48DEC /* Info.plist */,
+			);
+			path = WoundCare;
+			sourceTree = "<group>";
+		};
+		A5EC23AC22E2C5ED00B48DEC /* CircleMenuLib */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC23AD22E2C5ED00B48DEC /* CircleMenu.swift */,
+				A5EC23AE22E2C5ED00B48DEC /* CircleMenuLoader */,
+				A5EC23B022E2C5ED00B48DEC /* CircleMenuButton */,
+			);
+			path = CircleMenuLib;
+			sourceTree = "<group>";
+		};
+		A5EC23AE22E2C5ED00B48DEC /* CircleMenuLoader */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC23AF22E2C5ED00B48DEC /* CircleMenuLoader.swift */,
+			);
+			path = CircleMenuLoader;
+			sourceTree = "<group>";
+		};
+		A5EC23B022E2C5ED00B48DEC /* CircleMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC23B122E2C5ED00B48DEC /* CircleMenuButton.swift */,
+			);
+			path = CircleMenuButton;
+			sourceTree = "<group>";
+		};
+		A5EC23B522E2C65900B48DEC /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC23B622E2C65900B48DEC /* DesignableImageView.swift */,
+				A5EC23B722E2C65900B48DEC /* KeyboardLayoutConstraint.swift */,
+				A5EC23B822E2C65900B48DEC /* TransitionManager.swift */,
+				A5EC23B922E2C65900B48DEC /* TransitionZoom.swift */,
+				A5EC23BA22E2C65900B48DEC /* ImageLoader.swift */,
+				A5EC23BB22E2C65900B48DEC /* Spring.swift */,
+				A5EC23BC22E2C65900B48DEC /* SpringImageView.swift */,
+				A5EC23BD22E2C65900B48DEC /* DesignableLabel.swift */,
+				A5EC23BE22E2C65900B48DEC /* SoundPlayer.swift */,
+				A5EC23BF22E2C65900B48DEC /* BlurView.swift */,
+				A5EC23C022E2C65900B48DEC /* DesignableTextField.swift */,
+				A5EC23C122E2C65900B48DEC /* SpringButton.swift */,
+				A5EC23C222E2C65900B48DEC /* SpringTextView.swift */,
+				A5EC23C322E2C65900B48DEC /* Misc.swift */,
+				A5EC23C422E2C65900B48DEC /* SpringView.swift */,
+				A5EC23C522E2C65900B48DEC /* DesignableButton.swift */,
+				A5EC23C622E2C65900B48DEC /* SpringTextField.swift */,
+				A5EC23C722E2C65900B48DEC /* DesignableView.swift */,
+				A5EC23C822E2C65900B48DEC /* AsyncButton.swift */,
+				A5EC23C922E2C65900B48DEC /* LoadingView.xib */,
+				A5EC23CA22E2C65900B48DEC /* SpringLabel.swift */,
+				A5EC23CB22E2C65900B48DEC /* Spring.h */,
+				A5EC23CC22E2C65900B48DEC /* DesignableTextView.swift */,
+				A5EC23CD22E2C65900B48DEC /* AutoTextView.swift */,
+				A5EC23CE22E2C65900B48DEC /* SpringAnimation.swift */,
+				A5EC23CF22E2C65900B48DEC /* UnwindSegue.swift */,
+				A5EC23D022E2C65900B48DEC /* LoadingView.swift */,
+				A5EC23D122E2C65900B48DEC /* Info.plist */,
+				A5EC23D222E2C65900B48DEC /* AsyncImageView.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		A5EC23EF22E2C65D00B48DEC /* OpenSourceLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC23AC22E2C5ED00B48DEC /* CircleMenuLib */,
+				A5EC23B522E2C65900B48DEC /* Spring */,
+			);
+			path = OpenSourceLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5EC239622E2C51600B48DEC /* WoundCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EC23A922E2C51700B48DEC /* Build configuration list for PBXNativeTarget "WoundCare" */;
+			buildPhases = (
+				69C16BD18F544CF0E0F65313 /* [CP] Check Pods Manifest.lock */,
+				A5EC239322E2C51600B48DEC /* Sources */,
+				A5EC239422E2C51600B48DEC /* Frameworks */,
+				A5EC239522E2C51600B48DEC /* Resources */,
+				8D0A54071F1689A628D774AD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoundCare;
+			productName = WoundCare;
+			productReference = A5EC239722E2C51600B48DEC /* WoundCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5EC238F22E2C51600B48DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ashwin Kumar";
+				TargetAttributes = {
+					A5EC239622E2C51600B48DEC = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = A5EC239222E2C51600B48DEC /* Build configuration list for PBXProject "WoundCare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5EC238E22E2C51600B48DEC;
+			productRefGroup = A5EC239822E2C51600B48DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5EC239622E2C51600B48DEC /* WoundCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5EC239522E2C51600B48DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EC23A522E2C51700B48DEC /* LaunchScreen.storyboard in Resources */,
+				A5EC23E622E2C65900B48DEC /* LoadingView.xib in Resources */,
+				A5EC23A222E2C51700B48DEC /* Assets.xcassets in Resources */,
+				A5EC23A022E2C51600B48DEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69C16BD18F544CF0E0F65313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoundCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0A54071F1689A628D774AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WoundCare/Pods-WoundCare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CircleMenu/CircleMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCharts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WoundCare/Pods-WoundCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5EC239322E2C51600B48DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EC23D622E2C65900B48DEC /* TransitionZoom.swift in Sources */,
+				A5EC23D522E2C65900B48DEC /* TransitionManager.swift in Sources */,
+				A5EC23E222E2C65900B48DEC /* DesignableButton.swift in Sources */,
+				A5EC23DC22E2C65900B48DEC /* BlurView.swift in Sources */,
+				A5EC23D722E2C65900B48DEC /* ImageLoader.swift in Sources */,
+				A5EC23E722E2C65900B48DEC /* SpringLabel.swift in Sources */,
+				A5EC23B222E2C5ED00B48DEC /* CircleMenu.swift in Sources */,
+				A5EC23E122E2C65900B48DEC /* SpringView.swift in Sources */,
+				A5EC23DA22E2C65900B48DEC /* DesignableLabel.swift in Sources */,
+				A5EC23E322E2C65900B48DEC /* SpringTextField.swift in Sources */,
+				A5EC239D22E2C51600B48DEC /* ViewController.swift in Sources */,
+				A5EC23EA22E2C65900B48DEC /* SpringAnimation.swift in Sources */,
+				A5EC23D922E2C65900B48DEC /* SpringImageView.swift in Sources */,
+				A5EC239B22E2C51600B48DEC /* AppDelegate.swift in Sources */,
+				A5EC23DB22E2C65900B48DEC /* SoundPlayer.swift in Sources */,
+				A5EC23E022E2C65900B48DEC /* Misc.swift in Sources */,
+				A5EC23E522E2C65900B48DEC /* AsyncButton.swift in Sources */,
+				A5EC23E422E2C65900B48DEC /* DesignableView.swift in Sources */,
+				A5EC23B422E2C5ED00B48DEC /* CircleMenuButton.swift in Sources */,
+				A5EC23DD22E2C65900B48DEC /* DesignableTextField.swift in Sources */,
+				A5EC23DF22E2C65900B48DEC /* SpringTextView.swift in Sources */,
+				A5EC23D822E2C65900B48DEC /* Spring.swift in Sources */,
+				A5EC23E922E2C65900B48DEC /* AutoTextView.swift in Sources */,
+				A5EC23EC22E2C65900B48DEC /* LoadingView.swift in Sources */,
+				A5EC23DE22E2C65900B48DEC /* SpringButton.swift in Sources */,
+				A5EC23EB22E2C65900B48DEC /* UnwindSegue.swift in Sources */,
+				A5EC23D422E2C65900B48DEC /* KeyboardLayoutConstraint.swift in Sources */,
+				A5EC23E822E2C65900B48DEC /* DesignableTextView.swift in Sources */,
+				A5EC23EE22E2C65900B48DEC /* AsyncImageView.swift in Sources */,
+				A5EC23D322E2C65900B48DEC /* DesignableImageView.swift in Sources */,
+				A5EC23B322E2C5ED00B48DEC /* CircleMenuLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5EC239E22E2C51600B48DEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5EC239F22E2C51600B48DEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5EC23A322E2C51700B48DEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5EC23A422E2C51700B48DEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5EC23A722E2C51700B48DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5EC23A822E2C51700B48DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5EC23AA22E2C51700B48DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833304EB56AEBFF4AF6E2415 /* Pods-WoundCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53A7W5TWUB;
+				INFOPLIST_FILE = WoundCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ashwinkumar.WoundCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5EC23AB22E2C51700B48DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65737832707FA0FA96A51D24 /* Pods-WoundCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53A7W5TWUB;
+				INFOPLIST_FILE = WoundCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ashwinkumar.WoundCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5EC239222E2C51600B48DEC /* Build configuration list for PBXProject "WoundCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EC23A722E2C51700B48DEC /* Debug */,
+				A5EC23A822E2C51700B48DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5EC23A922E2C51700B48DEC /* Build configuration list for PBXNativeTarget "WoundCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EC23AA22E2C51700B48DEC /* Debug */,
+				A5EC23AB22E2C51700B48DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5EC238F22E2C51600B48DEC /* Project object */;
+}
